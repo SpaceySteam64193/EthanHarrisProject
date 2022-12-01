@@ -21,3 +21,36 @@ body {
     background-color: rgba(255, 255, 255, 0.75);
     font-size: 3rem;
 }
+
+section.intro {
+    display: flex;
+    justify-content: center;
+}
+
+section.source {
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.one {
+    width: 20%;
+    display: flex;
+
+}
+
+.two {
+    width: 20%;
+    display: flex;
+}
+
+.three {
+    width: 20%;
+    display: flex;
+}
+
+section div{
+    margin:auto
+    displ
+}
