@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+.hero-home {
+    width: 100%;
+    height: 75vh ;
+    background-image: url(/images/shley-tree-1-1920x1080.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    align-items: center;
+}
+
+.hero-text-home {
+    background-color: rgba(255, 255, 255, 0.75);
+    font-size: 3rem;
+}
