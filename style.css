@@ -4,12 +4,20 @@ img {
 
 body {
     margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin:50px;
 }
 
 .hero-home {
     width: 100%;
     height: 75vh ;
-    background-image: url(/images/shley-tree-1-1920x1080.png);
+    background-image: url(/images/pexels-jacob-colvin-1757363.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,30 +35,38 @@ section.intro {
     justify-content: center;
 }
 
-section.source {
-    height: 20vh;
+section.sources {
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .one {
-    width: 20%;
-    display: flex;
-
+    background-image: url("images/pexels-pixabay-159514.jpg");
+    background-size: cover;
 }
 
 .two {
-    width: 20%;
-    display: flex;
+    background-image: url("images/pexels-janko-ferlic-590471.png");
+    background-size: cover;
 }
 
 .three {
-    width: 20%;
-    display: flex;
+    background-image: url("images/pexels-michael-block-3225517.jpg");
+    background-size: cover;
 }
 
 section div{
-    margin:auto
-    displ
+    height: 30vh;
+    margin:auto;
+    width:28%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sources p {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding:5px;
 }
