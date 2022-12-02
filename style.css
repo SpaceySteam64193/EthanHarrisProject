@@ -70,3 +70,22 @@ section div{
     background-color: rgba(255, 255, 255, 0.75);
     padding:5px;
 }
+
+.caption {
+    display: flex;
+    justify-content: center;
+}
+
+.caption p {
+    text-align: center;
+}
+
+.info-one {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.info-one div {
+    width: 40%;
+}
