@@ -33,6 +33,7 @@ main {
 section.intro {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 section.sources {
@@ -89,3 +90,36 @@ section div{
 .info-one div {
     width: 40%;
 }
+
+.info-two {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.info-two div {
+    width: 40%;
+}
+
+.footer-one {
+    display: flex;
+    background-color: #8CC0AA;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-one div {
+    width: 30%;
+}
+
+.page-two {
+    background-color: red;
+    height: 10vh;
+}
+
+.page-two a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
+
