@@ -138,6 +138,7 @@ section div{
     background-image: url(/images/pexels-eberhard-grossgasteiger-572897.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-position: ; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -162,4 +163,31 @@ nav div {
     align-items: center;
     height: 10vh;
     padding: 10px;
+}
+.link{
+    display: flex;
+    text-align: center; 
+}
+.hero-text-action{
+    padding: 10px;
+}
+.hero-text-home{
+    padding: 10px;
+}
+.image1{
+    background-image: url(/images/pexels-andrea-piacquadio-3771809.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.image2{
+    background-image: url(/images/pexels-jill-wellington-40192.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center center;
+}
+.info-two{
+    align-items: center;
 }
