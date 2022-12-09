@@ -16,6 +16,10 @@ main {
     margin:50px;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
 .hero-home {
     width: 100%;
     height: 75vh ;
@@ -57,14 +61,38 @@ section.sources {
     background-size: cover;
 }
 
+.one p {
+    color: black;
+}
+
+.one p:hover {
+    color: darksalmon;
+}
+
 .two {
     background-image: url("images/pexels-janko-ferlic-590471.png");
     background-size: cover;
 }
 
+.two p {
+    color: black;
+}
+
+.two p:hover {
+    color: green;
+}
+
 .three {
     background-image: url("images/pexels-michael-block-3225517.jpg");
     background-size: cover;
+}
+
+.three p {
+    color: black;
+}
+
+.three p:hover {
+    color: lightseagreen;
 }
 
 section div{
@@ -174,17 +202,21 @@ nav div {
     height: 10vh;
     padding: 10px;
 }
+
 .link{
     display: flex;
     text-align: center; 
 }
+
 .hero-text-action{
     padding: 10px;
     text-shadow: 4px 4px lightblue;
 }
+
 .hero-text-home{
     padding: 10px;
 }
+
 .image1{
     background-image: url(/images/pexels-andrea-piacquadio-3771809.jpg);
     background-size: contain;
@@ -192,6 +224,7 @@ nav div {
     background-position: center center;
 
 }
+
 .image2{
     background-image: url(/images/pexels-jill-wellington-40192.jpg);
     background-size: contain;
@@ -199,6 +232,7 @@ nav div {
     display: flex;
     background-position: center center;
 }
+
 .info-two{
     align-items: center;
 }
@@ -222,16 +256,9 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-p {
-    font-size: 1.5rem;
+    color: mediumspringgreen;
 }
 
 .hero-action p {
     font-size: 5rem;
-}
-
-a:hover {
-    color: mediumspringgreen;
 }
