@@ -29,9 +29,14 @@ main {
     align-items: center;
 }
 
+.hero-home p {
+    font-size: 5rem;
+}
+
 .hero-text-home {
     background-color: rgba(255, 255, 255, 0.75);
     font-size: 3rem;
+    text-shadow: 4px 4px burlywood;
 }
 
 section.intro {
@@ -122,7 +127,7 @@ footer div p {
 }
 
 .page-two {
-    background-color: red;
+    background-color: darkslateblue;
     height: 10vh;
 }
 
@@ -175,6 +180,7 @@ nav div {
 }
 .hero-text-action{
     padding: 10px;
+    text-shadow: 4px 4px lightblue;
 }
 .hero-text-home{
     padding: 10px;
@@ -220,4 +226,12 @@ a:hover {
 
 p {
     font-size: 1.5rem;
+}
+
+.hero-action p {
+    font-size: 5rem;
+}
+
+a:hover {
+    color: mediumspringgreen;
 }
