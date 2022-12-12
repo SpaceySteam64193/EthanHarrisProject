@@ -65,10 +65,6 @@ section.sources {
     color: black;
 }
 
-.one p:hover {
-    color: darksalmon;
-}
-
 .two {
     background-image: url("images/pexels-janko-ferlic-590471.png");
     background-size: cover;
@@ -78,10 +74,6 @@ section.sources {
     color: black;
 }
 
-.two p:hover {
-    color: green;
-}
-
 .three {
     background-image: url("images/pexels-michael-block-3225517.jpg");
     background-size: cover;
@@ -89,10 +81,6 @@ section.sources {
 
 .three p {
     color: black;
-}
-
-.three p:hover {
-    color: lightseagreen;
 }
 
 section div{
@@ -249,16 +237,57 @@ hr {
     background-position: center center;
 }
 
+.image4{
+    background-image: url(/images/Screenshot\ 2022-12-05\ 090833.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center center;
+}
+
 a {
     text-decoration: none;
     font-size: 2rem;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: mediumspringgreen;
-}
-
 .hero-action p {
     font-size: 5rem;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .hero-home p{
+        text-align: center;
+    }
+
+    .sources div {
+        width:100%;
+        margin-bottom: 20px;
+    }
+
+    .info-one div {
+        width:100%;
+    }
+
+    .info-two div {
+        width: 100%;
+    }
+
+    .caption {
+        margin-bottom: 150px;
+    }
+
+    .image4 {
+        margin-top:75px;
+    }
+
+    .footer-one div {
+        width:100%;
+    }
+
+    /* Now for the second page */
+
+    .hero-action p{
+        text-align: center;
+    }
+  }
