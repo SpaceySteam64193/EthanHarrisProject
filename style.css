@@ -301,4 +301,29 @@ a {
     hr {
         width:80%;
     }
+
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    .hero-action {
+        margin-bottom: 200px;
+    }
+
+    .info-one div p {
+        margin-bottom: 100px;
+    }
+
+    .info-two div p {
+        margin-bottom: 100px;
+    }
+
+    .caption {
+        margin-bottom: 250px;
+    }
+
+    .image3 {
+        margin-bottom: 100px;
+    }
+
   }
