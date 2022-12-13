@@ -290,4 +290,15 @@ a {
     .hero-action p{
         text-align: center;
     }
+
+    main {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    hr {
+        width:80%;
+    }
   }
